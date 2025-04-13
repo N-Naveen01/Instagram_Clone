@@ -8,7 +8,7 @@ function Posts() {
         fetch('http://localhost:3001/posts')
         .then(data => data.json())
         .then(data => setposts(data))
-        .catch(error => console.log)
+        .catch(error => console.log(error))
     }, [])
 
   return (

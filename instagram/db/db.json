@@ -1,99 +1,131 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "user": {
-          "id": 101,
-          "username": "john_doe",
-          "profile_pic": "src/assets/profile_pic_1.jpeg"
-        },
-        "image": "src/assets/travel1.jpg",
-        "caption": "Beautiful sunset 🌅 #Nature",
-        "likes": 120,
-        "comments": [
-          {
-            "user": "alice_wonder",
-            "comment": "Wow! Amazing shot! 📸"
-          },
-          {
-            "user": "mark_92",
-            "comment": "Where is this place?"
-          }
-        ],
-        "timestamp": "2025-02-11T14:30:00Z"
-      },
-      {
-        "id": 2,
-        "user": {
-          "id": 102,
-          "username": "sarah_sky",
-          "profile_pic": "src/assets/profile_pic_2.jpeg"
-        },
-        "image": "src/assets/travel2.jpg",
-        "caption": "Just me and the sky 💙✨ #Freedom",
-        "likes": 85,
-        "comments": [
-          {
-            "user": "noah_gray",
-            "comment": "So peaceful 😍"
-          }
-        ],
-        "timestamp": "2025-03-01T10:00:00Z"
-      },
-      {
-        "id": 3,
-        "user": {
-          "id": 103,
-          "username": "tech_guy",
-          "profile_pic": "src/assets/profile_pic_3.jpeg"
-        },
-        "image": "src/assets/travel3.jpg",
-        "caption": "Nature is the best therapy 🍃🌿",
-        "likes": 200,
-        "comments": [
-          {
-            "user": "amy_lee",
-            "comment": "Can’t stop looking at this 😍"
-          },
-          {
-            "user": "jackson_m",
-            "comment": "Which camera?"
-          }
-        ],
-        "timestamp": "2025-04-01T16:45:00Z"
-      }
-    ],
-    "profile": {
-      "id": 101,
-      "username": "john_doe",
-      "profile_pic": "src/assets/profile_pic_1.jpeg"
-    },
-    "suggestions": [
-      {
+  "posts": [
+    {
+      "id": "1",
+      "user": {
         "id": 101,
         "username": "john_doe",
         "profile_pic": "src/assets/profile_pic_1.jpeg"
       },
-      {
+      "image": "src/assets/travel1.jpg",
+      "caption": "Beautiful sunset 🌅 #Nature",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot! 📸"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
         "id": 102,
         "username": "sarah_sky",
         "profile_pic": "src/assets/profile_pic_2.jpeg"
       },
-      {
+      "image": "src/assets/travel2.jpg",
+      "caption": "Just me and the sky 💙✨ #Freedom",
+      "likes": 85,
+      "comments": [
+        {
+          "user": "noah_gray",
+          "comment": "So peaceful 😍"
+        }
+      ],
+      "timestamp": "2025-03-01T10:00:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
         "id": 103,
         "username": "tech_guy",
         "profile_pic": "src/assets/profile_pic_3.jpeg"
       },
-      {
-        "id": 104,
-        "username": "smart_guy",
+      "image": "src/assets/travel3.jpg",
+      "caption": "Nature is the best therapy 🍃🌿",
+      "likes": 200,
+      "comments": [
+        {
+          "user": "amy_lee",
+          "comment": "Can’t stop looking at this 😍"
+        },
+        {
+          "user": "jackson_m",
+          "comment": "Which camera?"
+        }
+      ],
+      "timestamp": "2025-04-01T16:45:00Z"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "john",
+    "profile_pic": "src/assets/profile_pic_1.jpeg"
+  },
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "john_doe",
+      "profile_pic": "src/assets/profile_pic_1.jpeg"
+    },
+    {
+      "id": "102",
+      "username": "sarah_sky",
+      "profile_pic": "src/assets/profile_pic_2.jpeg"
+    },
+    {
+      "id": "103",
+      "username": "tech_guy",
+      "profile_pic": "src/assets/profile_pic_3.jpeg"
+    },
+    {
+      "id": "104",
+      "username": "smart_guy",
+      "profile_pic": "src/assets/profile_pic_3.jpeg"
+    },
+    {
+      "id": "105",
+      "username": "hello_guy",
+      "profile_pic": "src/assets/profile_pic_3.jpeg"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/profile_pic_1.jpeg"
+      },
+      "image": "src/assets/s1.jpg",
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "sarah_sky",
+        "profile_pic": "src/assets/profile_pic_2.jpeg"
+      },
+      "image": "src/assets/s2.jpg",
+      "timestamp": "2025-03-01T10:00:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "tech_guy",
         "profile_pic": "src/assets/profile_pic_3.jpeg"
       },
-      {
-        "id": 105,
-        "username": "hello_guy",
-        "profile_pic": "src/assets/profile_pic_3.jpeg"
-      }
-    ]
-  }
-  
+      "image": "src/assets/s3.jpg",
+      "timestamp": "2025-04-01T16:45:00Z"
+    }
+  ],
+  "followers": []
+}
